@@ -1,20 +1,22 @@
-# Install Dependencies
+## Install Dependencies
 `uv sync`
 
-# Test Text Generation
+## Test Text Generation
 `uv run text_generation.py`
 
-# Test Text Streaming
+## Test Text Streaming
 `uv run text_streaming.py`
 
 
-# Run Server
-# Deploy for free with autoscaling, monitoring, etc...
+## Run Server
+### Deploy for free with autoscaling, monitoring, etc...
 `uv run lightning deploy server.py --cloud`
 
-# Or run locally (self host anywhere)
-`uv run lightning deploy server.py`
+### Or run locally (self host anywhere)
+```
+uv run lightning deploy server.py
 # uv run server.py
+```
 
-# Run Client
+## Run Client
 `uv run client.py`
